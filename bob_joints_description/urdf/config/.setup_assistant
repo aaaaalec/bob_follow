@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: bob_joints_description
+    relative_path: urdf/bob_joints.urdf
+  srdf:
+    relative_path: config/bob_joints.srdf
+  package_settings:
+    author_name: alec
+    author_email: aleclinehan@gmail.com
+    generated_timestamp: 1731176318
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

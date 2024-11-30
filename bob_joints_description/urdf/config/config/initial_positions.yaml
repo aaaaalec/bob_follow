@@ -1,0 +1,7 @@
+# Default initial positions for bob_joints's ros2_control fake system
+
+initial_positions:
+  limb1_to_base_link: 0
+  limb2_to_limb1: 0
+  limb3_to_limb2: 0
+  limb4_to_limb3: 0
